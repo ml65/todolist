@@ -4,22 +4,6 @@ require 'vendor/autoload.php';
 
 use Carbon\Carbon;
 use Sabre\HTTP;
-//use Mls65\Todolist\Repository;
-//use Mls65\Todolist\Entity;
-
-//https://packagist.org/packages/sabre/http
-/*
-function getMethod();
-function getBody();
-function getBodyAsString();
-function getHeaders();
-function getHeader($name);
-function setHeader($name, $value);
-
-function setStatus($status);
-function setBody($body);
-
-*/
 
 $request = HTTP\Sapi::getRequest();
 
