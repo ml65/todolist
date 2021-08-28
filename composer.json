@@ -1,0 +1,19 @@
+{
+    "name": "mls/todolist",
+    "description": "test project",
+    "authors": [
+        {
+            "name": "mls65",
+            "email": "ml65@rambler.ru"
+        }
+    ],
+    "require": {
+        "nesbot/carbon": "^2.52",
+        "sabre/http" : "~5.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mls65\\Todolist\\": "app/"
+        }
+    }
+}
