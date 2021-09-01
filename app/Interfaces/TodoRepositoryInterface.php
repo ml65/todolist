@@ -10,12 +10,12 @@ namespace Mls65\Todolist\Interfaces;
 
 interface TodoRepositoryInterface
 {
-     public function createTask(TodoEntityInterface $todo);
+     public function createTask(TodoEntity $todo);
 
-     public function deleteTask(TodoEntityInterface $todo);
+     public function deleteTask(TodoEntity $todo);
 
-     public function doCompleted(TodoEntityInterface $todo);
+     public function doCompleted(TodoEntity $todo);
 
-     public function getTasks(TodoEntityInterface $todo);
+     public function getTasks(TodoEntity $todo);
 
 }
